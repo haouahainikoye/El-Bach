@@ -1,0 +1,322 @@
+header,footer, .row {
+background-color: #f91c1c;
+height: 130px;
+align-items: center;
+}
+.img1{
+    width: 250px;
+    height: 130px;
+}
+.head{
+    font-style: italic;
+    font-weight: bolder;
+    padding-top: 11px;
+    text-shadow:5px 5px 5px black;
+}
+.top{
+    margin-top: 17px;
+       background-color: #4ac3f7 ;
+}
+.nav-link{
+    font-weight: bolder;
+    color: white;
+
+}
+.nav-link:hover{
+    color: black;
+}
+.carousel {
+    margin-top: 17px;
+}
+.custom{
+    margin-top: 17px;
+    height: 340px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    
+}
+.carteries,.evenementiels, .artifical {
+    margin-top: 13px;
+    background-color: #227fd0;
+    width: 300px;
+    height: 310px;
+    box-shadow: 4px  4px 6px black;
+}
+
+.heading{
+    margin-top: 30px;
+    color:#0b651d;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px black;
+    
+}
+h2{
+    font-weight: bolder !important;
+    color: white;
+    padding-top: 60px;
+    padding-left: 72px;
+}
+.img2{
+    width:230px;
+    height: 110px;
+    padding-left: 50px;
+}
+h5{
+    padding-left: 34px;
+    font-style: italic;
+    color: white;
+}
+.g1{
+    font-weight: bolder;
+    color: white;
+    padding-top: 60px;
+    padding-left: 96px;
+}
+.carteries:hover,.evenementiels:hover , .artifical:hover {
+    cursor: pointer;
+    background-color:#140f6c;
+}
+marquee{
+    display: flex;
+    color: white;
+    height: 33px;
+    
+    
+}
+.marq{
+    margin-top: 17px;
+       background-color: #00c3ff ;
+       
+       
+}
+.tab{
+    margin: 40px;
+    font-weight: bolder;
+}
+.pro{
+    color: black;
+}
+.servicediv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.freeshipping,.grantee,.support,.payment{
+    display: flex;
+    width: 290px;
+    height: 120px;
+    background-color: #e91313;
+    box-shadow: 2px 3px 4px black;
+    margin: 6px;
+
+}
+.fa-truck,.fa-money,.fa-headphones,.fa-credit-card-alt {
+font-size: 40px !important;
+    padding-left: 11px;
+    padding-top: 30px;
+    color: white;
+}
+
+h4{
+    
+    padding-top: 18px;
+    font-weight:bolder;
+    font-size: 40px;
+    color:white
+}
+.headsupport,.headmoney,.headshipping,.headpayment{
+    margin: 10px;
+    color : white;
+
+
+}
+
+footer{
+    margin-top: 70px;
+    height: 180px;
+}
+
+.fa-facebook:hover,.fa-instagram:hover,.fa-whatsapp:hover,.fa-youtube:hover,.fa-twitter:hover,.fa-skype:hover{
+    color: black;
+    cursor: pointer;
+    margin: 4px;
+    font-size: 40px !important;
+
+}
+
+.fa-facebook,.fa-instagram,.fa-whatsapp,.fa-youtube,.fa-twitter,.fa-skype{
+    font-size: 20px !important;
+    margin: 3px;
+}
+
+.footdiv{
+    height: 35px;
+    margin-top: 90px;
+    background-color: #1ca1f4 ;
+}
+.top1,.top2{
+    margin-top: 0px;
+    background-color: #ff0080 ;
+}
+
+.aboutone,.abouttwo,.aboutthree,.aboutfour,.aboutfive{
+    margin-top: 60px;
+    height: 180px;
+    background-color: #ff0080 ;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.aboutsix{
+    margin-top: 60px;
+    height: 58px;
+    background-color: #ff0080 ;
+}
+
+form{
+    margin-top: 120px;
+    background-color: #ff0080;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+td{
+    font-weight: bolder;
+    color: white;
+}
+
+.carddiv{
+    margin: 30px;
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.card{
+    margin-top: 80px;
+}
+.cardbody{
+    background-color: #ffcccc;
+}
+
+.card-body{
+    margin-top: 4px;
+}
+
+
+
+
+
+@media only screen and (max-width:912px){
+    .facal{
+        margin-top: 300px;
+    }
+    .aboutone,.abouttwo,.aboutthree,.aboutfour,.aboutfive{
+        height: 200px;
+        background-color:  #ff0080;
+    }
+    form{
+        
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media only screen and (max-width:616px){
+    .facal{
+        margin-top: 690px;
+    }
+    .aboutone,.abouttwo,.aboutthree,.aboutfour,.aboutfive{
+        height: 400px;
+        background-color:  #ff0080;
+    
+    }
+    form{
+       
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+@media only screen and (max-width:765px){
+    footer{
+        height: 200px;
+    }
+    .aboutone,.abouttwo,.aboutthree,.aboutfour,.aboutfive{
+        height: 300px;
+        background-color:  #ff0080;
+    }
+    form{
+      
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+
+@media only screen and (max-width:416px){
+    footer{
+        height: 300px;
+    }
+    .aboutone,.abouttwo,.aboutthree,.aboutfour,.aboutfive{
+        height: 400px;
+        background-color:  #ff0080;
+        
+    }
+    form{
+        height: auto;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+@media only screen and (max-width:1024px){
+    form{
+        
+            
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        
+    }
+
+    @media only screen and (max-width:1125px){
+        form{
+            
+                
+                margin-left: 180px;
+                margin-right: 180px;
+            }
+            
+        }
+
+        @media only screen and (max-width:700px){
+            form{
+                
+                    
+                    margin-left: 50px;
+                    margin-right: 50px;
+                }
+                
+            }
+
+            @media only screen and (max-width:700px){
+                form{
+                    
+                        
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    
+                }
